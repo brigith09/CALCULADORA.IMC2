@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0" >
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" type="text/css" href="bri.css">
+    <style>
+        body{
+        background-image: url("fondo.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        }
+    </style>
+
+</head>
+<body>
+    <did class="container">
+        <h1>Calculadora IMC</h1>    
+
+
+        <did id="calculator">
+
+            
+            <input type="number" id="weight" placeholder="Peso(Kg)">
+
+                 <br>
+                 <br>
+                 <br>
+
+            <input type="number" id="height" placeholder="Altura(cm)">
+        
+                 <br>
+                 <br>
+                 <br>
+
+            <input type="number" id="age " placeholder="Edad">
+
+                 <br>
+                 <br>
+                 <br>
+
+            <button onclick="calculateIMC()"> Calcular IMC</button>
+
+
+            <div id="result"></div>
+
+        </div>
+
+            <br>
+            <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Rngo de IMC</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Menos de 18.5</td>
+                    <td>Peso bajo</td>
+                </tr>
+
+                <ter>
+                    <td>18.5 -24.9</td>
+                    <td>Peso normal</td>
+                </ter>
+
+                <tr>
+                    <td>25 -29.9</td>
+                    <td>Sobrepeso</td>
+                </tr>
+
+                <tr>
+                    <td>30 o mas</td>
+                    <td>Obecidad</td>
+                </tr>
+            </tbody>
+        </table>
+
+            <br>
+            <br>
+
+            <h2 class="subtitle ">¿que es el IMC,su importancia y como se calcula?</h2>
+            <p class="card-text">El IMC(indice de masa corporal) es un indicador de peso, el cual deberia tener una persona, esta se calcula, con el sexo, el peso, la edad y la estatura de una persona, esta indica los valores de IMC que tiene una persona y si esta bien
+                o tiene algunas complicaciones.El IMC se calcula multiplicando nuestra altura y luego dividimos nuestro peso en kl por el resultado que nos dio en la multiplicacion
+            </p>
+
+            <br>
+            <br>
+
+            <h2 class="subtitle">¿cual es el IMC en los niños y adolescentes?</h2>
+            <p class="card-text">Para los niños y adolescentes, el IMC es específico con respecto a la edad y el sexo, y con frecuencia se conoce como el IMC por edad. En los niños, una gran cantidad de grasa corporal puede provocar enfermedades relacionadas con el peso y otros problemas de salud. Tener bajo peso también puede poner a uno en riesgo de problemas de salud.
+            </p>   
+
+            <br>
+            <br>
+
+            <h2 class="subtitle">cuales son las complicaciones en los adultos</h2>
+            <p class="card-text">Las complicaciones que un alto IMC o bajo IMC podria traer en un adulto podrian ser graves, por ejemplo, la obesidad, su organos ya estan mas deteriorados y por lo tanto la manera en como estos trabajan, podria tener problemas de salud grave incluyendo la muerte </p>   
+      
+
+
+
+    </did>
+
+    <script src="bri.js"></script>
+
+</body>
+</html>
